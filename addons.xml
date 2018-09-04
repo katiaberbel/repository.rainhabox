@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.VelhosTempos"
+       name="[B][COLOR red]Velhos Tempos[/B][/COLOR]"
+       version="0.0.5"
+       provider-name="Sergio Tools">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[B][COLOR gold]Velhos Tempos [/COLOR]</summary>
+    <description lang="en">[B][COLOR red]Seriados, filmes e desenhos que nÃ£o voltam...[/B][/COLOR] [B][COLOR blue]NÃ³s nÃ£o hospedamos ou distribuimos qualquer conteÃºdo exibido por este addon.[/COLOR][/B] [B][COLOR lime] NÃ³s do Addon Velhos Tempos, nÃ£o temos nenhuma afiliaÃ§Ã£o com o provedor de conteÃºdo,[/COLOR][/B] [B][COLOR gold] somos apenas responsÃ¡veis por linkar os endereÃ§os de conteÃºdos que jÃ¡ se encontram na Internet, categorizando e organizando, para que quem queira, possa desfrutÃ¡-los dentro do seu player preferido.[/COLOR][/B]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="repository.rainhabox" name="Demonstration repository" version="0.0.2" provider-name="katiaberbel">
 	<extension point="xbmc.addon.repository" name="Demonstration Add-on Repository">
 		<info compressed="false">http://raw.github.com/katiaberbel/repository.rainhabox/master/addons.xml</info>
