@@ -111,92 +111,6 @@
 	</extension>
 </addon>
 
-
-<addon id="plugin.video.Martunis" name="Martunis" version="1.0.0" provider-name="Martunis">
-
-  <requires>
-
-    <import addon="xbmc.python" version="2.1.0"/>
-
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-
-    <import addon="script.module.beautifulsoup4"/>
-
-    <import addon="script.module.requests"/>
-
-    <import addon="script.module.httplib2"/>
-
-    <import addon="script.module.youtube.dl" optional="true"/>
-
-    <import addon="plugin.video.youtube"/>
-
-    <import addon="script.module.urlresolver" optional="true"/>
-
-    <import addon="script.module.simplejson"/>
-
-  </requires>
-
-  <extension point="xbmc.python.pluginsource" library="default.py">
-
-        <provides>video</provides>
-
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">TV Online</summary>
-
-    <description lang="en">TV ONLINE BY:Martunis</description>
-    <platform>all</platform>
-
- </extension>
-
-</addon>
-
-
-<addon id="plugin.video.SexFactor" name="SexFactor" version="1.0.0" provider-name="SexFactor">
-
-  <requires>
-
-    <import addon="xbmc.python" version="2.1.0"/>
-
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-
-    <import addon="script.module.beautifulsoup4"/>
-
-    <import addon="script.module.requests"/>
-
-    <import addon="script.module.httplib2"/>
-
-    <import addon="script.module.youtube.dl" optional="true"/>
-
-    <import addon="plugin.video.youtube"/>
-
-    <import addon="script.module.urlresolver" optional="true"/>
-
-    <import addon="script.module.simplejson"/>
-
-  </requires>
-
-  <extension point="xbmc.python.pluginsource" library="default.py">
-
-        <provides>video</provides>
-
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">TV Online</summary>
-
-    <description lang="en">TV ONLINE BY:SexFactor</description>
-    <platform>all</platform>
-
- </extension>
-
-</addon>
-
 <addon id="plugin.video.+18Play"
 name="[B][COLOR white]+18 PLAY[/COLOR][/B]"
 version="1.9"
@@ -1273,6 +1187,49 @@ Artwork by @konsumer420
 		<website></website>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+
+<addon id="plugin.video.SexFactor" name="SexFactor" version="1.0.0" provider-name="SexFactor">
+
+  <requires>
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+
+    <import addon="script.module.beautifulsoup4"/>
+
+    <import addon="script.module.requests"/>
+
+    <import addon="script.module.httplib2"/>
+
+    <import addon="script.module.youtube.dl" optional="true"/>
+
+    <import addon="plugin.video.youtube"/>
+
+    <import addon="script.module.urlresolver" optional="true"/>
+
+    <import addon="script.module.simplejson"/>
+
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+        <provides>video</provides>
+
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">TV Online</summary>
+
+    <description lang="en">TV ONLINE BY:SexFactor</description>
+    <platform>all</platform>
+
+ </extension>
+
 </addon>
 
 <addon id="plugin.video.simpsons24horas" name="Simpsons 24 hrs" version="1.0.0" provider-name="Kodish MC">
