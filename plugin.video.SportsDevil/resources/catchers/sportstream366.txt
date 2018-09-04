@@ -1,0 +1,32 @@
+item_info_name=title
+item_info_from=@PARAM1@
+item_info_build=ss365 - %s
+
+item_info_name=game
+item_info_from=@PARAM1@
+item_info_convert=debug
+item_info_build=%s
+
+item_info_name=tkurl
+item_info_from=http://sportstream365.com/LiveFeed/GetGame?id='+game+'&lng=en&partner=24'
+item_info_build=%s
+
+item_info_name=purl
+item_info_from=http://sportstream365.com/viewer?game='+game
+item_info_build=%s
+
+item_info_name=rtmp
+item_info_from=rtmpe://93.189.57.254/xlive'+
+#item_info_from=rtmpe://xlive.sportstream365.com/xlive'+
+#item_info_convert=resolve
+item_info_build=%s
+
+item_info_name=file
+item_info_from=tkurl
+item_info_convert=getXML('%s','.*?VI['"]*[:,]\s*['"]([^'"]+)['"].*','@purl@')
+item_info_build=%s
+
+item_info_name=url
+item_info_from=rtmp+' app=xlive flashVer=WIN\23,0,0,166 conn=S:client conn=S:3.1.0.13 conn=S:en swfhash=5aaaa32059cba732636c28519b2ce34a3568f1058a8bd02d6a932643554ccbb4 swfsize=585534 live=true playpath=raw:'+file+'
+item_info_build=%s
+
