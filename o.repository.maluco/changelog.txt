@@ -1,0 +1,6 @@
+v1.0.8 - Nasceu o
+
+ "Sites dos Portugas". Este addon agrega 3 addons: TUGA-FILMES.tv, TUGA-FILMES.com e MOVIE-TUGA.
+	- Qualquer pesquisa que se faça vai pesquisar os 3 addons e apresenta os resultados.
+
+[B][COLOR red]Importante: [/COLOR][/B]Aconselho a instalação deste addon, de qualquer maneira não deixarei cair para já qualquer dos addons que referi, mas as atualizações serão sempre em primeiro para o addon "Sites dos Portugas".
