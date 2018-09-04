@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.rainhabox" name="Demonstration repository" version="0.0.2" provider-name="katiaberbel">
+<addon id="repository.rainhabox" name="Repositorio Oficial Rainha das Boxes" version="0.0.2" provider-name="katiaberbel">
 	<extension point="xbmc.addon.repository" name="Demonstration Add-on Repository">
 		<info compressed="false">http://raw.github.com/katiaberbel/repository.rainhabox/master/addons.xml</info>
 		<checksum>http://raw.github.com/katiaberbel/repository.rainhabox/master/addons.xml.md5</checksum>
 		<datadir zip="true">http://raw.github.com/katiaberbel/repository.rainhabox/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Demonstration Addon</summary>
-		<description>Addon Description</description>
+		<summary>Repositorio Rainhas do Box</summary>
+		<description>Proibido a venda, cessao sem autorizacao previo de Rainha do Box, uso exclusivo!!</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
