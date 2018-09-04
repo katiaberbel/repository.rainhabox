@@ -1,0 +1,44 @@
+[
+    {
+        "url": "http://bit.ly/GuiadoLuiz", 
+        "logos": "https://s3.amazonaws.com/minhalista.live/images/lists/23f6c3d9e91f952829eb30b9784fd289.jpg/", 
+        "image": "https://s3.amazonaws.com/minhalista.live/images/lists/23f6c3d9e91f952829eb30b9784fd289.jpg", 
+        "cache": 0, 
+        "name": "Playlist TV"
+    }, 
+    {
+        "url": "https://minhalista.live/GuiadoLuiz", 
+        "logos": "https://s3.amazonaws.com/minhalista.live/images/lists/23f6c3d9e91f952829eb30b9784fd289.jpg/", 
+        "image": "https://s3.amazonaws.com/minhalista.live/images/lists/23f6c3d9e91f952829eb30b9784fd289.jpg", 
+        "cache": 0, 
+        "name": "Tv Guia do Luiz"
+    }, 
+    {
+        "url": "https://minhalista.live/Topfilmes", 
+        "logos": "https://s3.amazonaws.com/minhalista.live/images/lists/23f6c3d9e91f952829eb30b9784fd289.jpg/", 
+        "image": "https://s3.amazonaws.com/minhalista.live/images/lists/23f6c3d9e91f952829eb30b9784fd289.jpg", 
+        "cache": 0, 
+        "name": "Guia do Luiz Filmes"
+    }, 
+    {
+        "url": "https://minhalista.live/GuiadoLuizClassic", 
+        "logos": "https://s3.amazonaws.com/minhalista.live/images/lists/23f6c3d9e91f952829eb30b9784fd289.jpg/", 
+        "image": "https://s3.amazonaws.com/minhalista.live/images/lists/23f6c3d9e91f952829eb30b9784fd289.jpg", 
+        "cache": 0, 
+        "name": "Guia do Luiz Classic"
+    }, 
+    {
+        "url": "https://minhalista.live/GuiadoLuizWorld", 
+        "logos": "", 
+        "image": "https://s3.amazonaws.com/minhalista.live/images/lists/23f6c3d9e91f952829eb30b9784fd289.jpg", 
+        "cache": 0, 
+        "name": "Guia do Luiz Iptv World"
+    }, 
+    {
+        "url": "http://bit.ly/GuiadoLuizRadios", 
+        "logos": "", 
+        "image": "https://s3.amazonaws.com/minhalista.live/images/lists/23f6c3d9e91f952829eb30b9784fd289.jpg", 
+        "cache": 0, 
+        "name": "Guia do Luiz Radios"
+    }
+]

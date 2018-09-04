@@ -1,0 +1,21 @@
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4Uc4Lag.png" group-title="SERIE - ATUALIZA합ES DO DIA", ATUALIZA합ES DO DIA 09/03 
+http://0.0.0.0
+
+#EXTINF:-1 tvg-logo="http://i.imgur.com/TtEIu6Uh.jpg" group-title="SERIE - ATUALIZA합ES DO DIA", G.A. S14|EP13 (LEG)
+http://cdn1.ntcdn.us/content/httpdelivery/greys/14leg/13-ALTO.mp4
+#EXTINF:-1 tvg-logo="http://i.imgur.com/O909BNth.jpg" group-title="SERIE - ATUALIZA합ES DO DIA", L.O.T. S3|EP13 (LEG)
+http://cdn1.ntcdn.us/content/httpdelivery/lot/03leg/0013-ALTO.mp4?STANIPTV
+#EXTINF:-1 tvg-logo="http://i.imgur.com/nj8xIgoh.jpg" group-title="SERIE - ATUALIZA합ES DO DIA", OUAT S7|EP11 (LEG)
+http://cdn1.ntcdn.us/content/httpdelivery/ouat/07leg/11-ALTO.mp4?STANIPTV
+#EXTINF:-1  tvg-logo="http://staniptv.com/aos" group-title="SERIE - ATUALIZA합ES DO DIA", S05|EP11 AGENTES DA S.H.I.E.L.D. (LEG)
+http://cdn1.ntcdn.us/content/httpdelivery/MAoS/05leg/11-ALTO.mp4?STANIPTV
+#EXTINF:0 tvg-logo="https://i.imgur.com/IbCxBTA.jpg"  group-title="SERIE - ATUALIZA합ES DO DIA", S01EP6 COUNTERPART (LEG)
+http://cdn1.ntcdn.us/content/httpdelivery/counterpart/01leg/06-BAIXO.mp4
+#EXTINF:0 tvg-logo="https://i.imgur.com/M9mCwFN.png"  group-title="SERIE - ATUALIZA합ES DO DIA", S04|EP13 H.T.G.A.W.M (LEG)
+http://cdn1.ntcdn.us/content/httpdelivery/htgawm/04leg/13-ALTO.mp4?STANIPTV
+#EXTINF:0 tvg-logo="http://i.imgur.com/X7L8IAd.jpg" group-title="SERIE - ATUALIZA합ES DO DIA" ,   S13|EP14 SUPERNATURAL (LEG) 
+http://cdn1.ntcdn.us/content/httpdelivery/supernatural/13leg/14-ALTO.mp4?STANIPTV
+#EXTINF:0 tvg-logo="https://i.imgur.com/Dj5hOGm.jpg" group-title="SERIE - ATUALIZA합ES DO DIA", S2|EP16 THIS IS US (LEG)
+http://cdn1.ntcdn.us/content/httpdelivery/thisisus/02leg/16-BAIXO.mp4
+#EXTINF:0 tvg-logo="https://i.imgur.com/C0e7WTn.jpg" group-title="SERIE - ATUALIZA합ES DO DIA",S01EP05 THE ALIENIST (LEG)
+http://cdn1.ntcdn.us/content/httpdelivery/alienist/01leg/06-BAIXO.mp4

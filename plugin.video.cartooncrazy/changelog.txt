@@ -1,0 +1,45 @@
+v0.0.1
+Initial Release
+
+v0.0.2
+Cleaned b99 links before playing (trailing space or %20) on some.
+Removed GoStream from Universal Search to eliminate non-cartoon results. Will still be avail in its own section.
+Changed universal search results for toonova sources. Were originally showing as cartooncrazy results, which would cause error when trying to play.
+Address unhandled cartoonson situation with universal search for inidividual season results (ex: Season 1 of showname).
+Disabled Request feature until further notice due to many disregarding instructions.
+Added notification to Universal Search about what sites are not included in the search
+Added Source #12 (watchcartoons.com)
+
+v0.0.5
+Added Source #13 (toonget.net)
+Added Source #14 (animetoon.org)
+Added Source #15 (animewow.org)
+Added Anime section into toonova section
+Added Sources 13-15 to Universal Search
+
+v0.1.8
+Added Source #16 (kisspanda.net)
+Added Source #17 (kisscartoon.io)
+Added Source #18 (theseriesonline.net)
+Added version number to reflect sources
+
+v0.2.0
+Fine-tuned Universal Search - Everything is up and running. Only 3 sites have been excluded
+Excluded sites are: watchcartoons, watchcartoononline & theseriesonline. Gostream source is by default turned off, but can enabled.
+Fixed Gostream source (they started using Cloudflare)
+Added Settings to enable/disable sources used in Universal Search
+Added Setting to delete Cookie file that's needed to access Cloudflare sites. Use this to fix issues with default kodi video image showing in place of actual images after some cookies expire
+
+V0.2.19
+Added huge new source #19: 9Anime
+Added the anime sections from WatchCartoonOnline source into the source's directory
+Added Sorting that makes episodes appear in order (1, 2, 3, etc)
+Alphabetized Sources on Main Menu
+
+V1.0.19
+Version bump to remove Colossus Repo requirement
+
+Future Plans
+Additional Sources (duh)
+Re-Enabling Requested Titles Section
+Favorite Searches (Menu Item that will allow you to access search terms you choose to save)

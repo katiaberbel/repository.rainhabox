@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+	<string id="10001">Создать новый</string>
+	<string id="10002">Выбрать источник плейлиста</string>
+	<string id="10003">Избранные каналы</string>
+	<string id="10004">Введите имя</string>
+	<string id="10005">Ввод URL</string>
+	<string id="10006">Выбрать плейлист</string>
+	<string id="10007">...уже добавлен</string>
+	<string id="10008">Удалить выбранный плейлист</string>
+	<string id="10009">Добавить в избранные каналы</string>
+	<string id="10010">Удалить плейлист из Избранного</string>
+	<string id="10011">...уже в избранном</string>
+	<string id="10012"> - добавлен в избранное</string>
+	<string id="10013">Добавить новый канал</string>
+	<string id="10014">Название канала</string>
+	<string id="10015">URL канала</string>
+	<string id="10016">Ссылка (URL)</string>
+	<string id="10017">Локальный файл (File)</string>
+	<string id="10018">Выбрать логотипы каналов </string>
+	<string id="10019">URL логотипов каналов</string>
+	<string id="10020">Папка логотипов каналов</string>
+	<string id="10021">Не использовать</string>
+	<string id="10022">Выбрать иконку плейлист</string>
+	<string id="10023">Выбрать логотипы каналов</string>
+	<string id="10024">Ссылка на логотипы каналов</string>
+	<string id="10025">Иконка плейлиста</string>
+	<string id="10026">Переименовать</string>
+	<string id="10027">Изменить источник (Local/URL)...</string>
+	<string id="10028">Изменить иконку плейлиста</string>
+	<string id="10029">Изменить логотипы каналов</string>
+	<string id="10030">Переместить вверх</string>
+	<string id="10031">Переместить вниз</string>
+	<string id="10032">Переместить...</string>
+	<string id="10033">Выбрать другую папку</string>
+	<string id="10034">Время в мин. кэширования плейлиста на диск</string>
+	<string id="10035">Время в сек. кэширования плейлиста</string>
+	<string id="10101">Удалить все плейлисты</string>
+	<string id="10102">Удалить все плейлисты из избранного</string>
+</strings>

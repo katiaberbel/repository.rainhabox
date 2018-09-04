@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.cartooncrazy" name="Cartoon Crazy" version="1.0.20" provider-name="@LuciferOnKodi">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.beautifulsoup" version="3.2.1"/>
+	<import addon="plugin.video.youtube" version="5.3.12"/>
+	<import addon="repository.lucifer" />
+	<import addon="script.module.urlresolver" version="3.0.0"/>
+	<import addon="script.module.requests" version="2.9.1"/>
+	<import addon="script.module.futures" version="2.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Your one-stop shop for cartoons</summary>
+    <description>Whether you're young or old, everyone's watched cartoons at one point in their life. This multi-source add-on provides cartoons both new and old to suit everyone's taste.[CR][CR]Top-notch artwork courtesy of jokstergfx, thanks bud.</description>
+    <disclaimer>I do not own, nor host any content provided within this add-on. All links are gathered from publicly available resources.</disclaimer>
+    <language>english</language>
+    <platform>all</platform>
+    <license>GNU General Public License v3.0</license>
+    <forum></forum>
+    <website></website>
+    <email>luciferonkodi@protonmail.com</email>
+    <source>https://github.com/LuciferOnKodi/repository.lucifer</source>
+    <news></news>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <screenshot></screenshot>
+    </assets>
+  </extension>
+</addon>

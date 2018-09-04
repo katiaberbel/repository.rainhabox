@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="Accounts">
+		<setting label="Youtube" type="lsep"/>
+			<setting label="Region Code" type="select" id="yt-reg" default="US" values="AE|AR|AT|AU|AZ|BA|BE|BG|BH|BR|BY|CA|CH|CL|CO|CZ|DE|DK|DZ|EE|EG|ES|FI|FR|GB|GE|GH|GR|HK|HR|HU|ID|IE|IL|IN|IQ|IS|IT|JM|JO|JP|KE|KR|KW|KZ|LB|LK|LT|LU|LV|LY|MA|ME|MK|MX|MY|NG|NL|NO|NP|NZ|OM|PE|PH|PK|PL|PR|PT|QA|RO|RS|RU|SA|SE|SG|SI|SK|SN|TH|TN|TR|TW|TZ|UA|UG|US|VN|YE|ZA|ZW"/>
+			<setting label="Personal Api Key" type="text" id="pyt-key" default="" visible="true"/>
+			<setting label="Click Here to get your Api Key" type="action" action="RunPlugin(plugin://plugin.video.cartooncrazy/?action=settings&link=https%3A%2F%2Fconsole.cloud.google.com%2Fapis%2Fapi%2Fyoutube.googleapis.com)"/>
+			<setting type="text" id="yt-key" default="QUl6YVN5RHZuWVZmZjVOR3JQOGdKcWZhejFTdkhzOFhUTThQRXVz" visible="false"/>
+			<setting type="text" id="yt-ref" default="YmVubnVvcmJ1c3QuY29t" visible="false"/>
+		<setting label="Alluc" type="lsep"/>
+			<setting id="al-type" label="Auth Type" type="select" values="User/Pass|Api Key" default="User/Pass"/>
+			<setting label="Username" type="text" id="pal-user" default="" visible="eq(-1,User/Pass)"/>
+			<setting label="Password" type="text" id="pal-pass" option="hidden" default="" visible="eq(-2,User/Pass)"/>
+			<setting label="Personal Api Key" type="text" id="pal-key" default="" visible="eq(-3,Api Key)"/>
+			<setting label="Results Per Page" type="select" id="pal-rpp" values="15|30|50|75|100" default="15" visible="!eq(-1,)|!eq(-2,)"/>
+			<setting label="Click Here to get your Api Key or to Create an Account" type="action" action="RunPlugin(plugin://plugin.video.cartooncrazy/?action=settings&link=http%3A%2F%2Faccounts.alluc.com)"/>
+			<setting type="text" id="al-key" default="MTUxYzA3OTc0MDExYzUxOWJkNmRmYmViMTVmZGFlYTQ=" visible="false"/>
+	</category>
+	<category label="Universal Search">
+		<setting label="Included Sites" type="lsep"/>
+			<setting id="9anime" type="bool" label="9Anime" default="true"/>
+			<setting id="9cartoon" type="bool" label="9Cartoon" default="true"/>
+			<setting id="animetoon" type="bool" label="AnimeToon" default="true"/>
+			<setting id="animewow" type="bool" label="AnimeWow" default="true"/>
+			<setting id="b99" type="bool" label="B99" default="true"/>
+			<setting id="cartooncrazy" type="bool" label="CartoonCrazy" default="true"/>
+			<setting id="cartoonson" type="bool" label="CartoonsOn" default="true"/>
+			<setting id="kimcartoon" type="bool" label="KimCartoon" default="true"/>
+			<setting id="kisscartoonso" type="bool" label="KissCartoonSo" default="true"/>
+			<setting id="kisscartooneu" type="bool" label="KissCartoonEu" default="true"/>
+			<setting id="kisscartoonio" type="bool" label="KissCartoonIo" default="true"/>
+			<setting id="kisspanda" type="bool" label="KissPanda" default="true"/>
+			<setting id="toonova" type="bool" label="Toonova" default="true"/>
+			<setting id="toonget" type="bool" label="ToonGet" default="true"/>
+			<setting id="watchcartoonsonline" type="bool" label="WatchCartoonsOnline" default="true"/>
+			<setting id="gostream" type="bool" label="GoStream (May Provide Non-Cartoon Results)" default="false"/>
+		<setting label="Excluded Sites" type="lsep"/>
+			<setting id="theseriesonline" type="bool" label="TheSeriesOnline (May Provide Non-Cartoon Results)" default="false" enable="false"/>
+			<setting id="watchcartoons" type="bool" label="WatchCartoons" default="false" enable="false"/>
+			<setting id="watchcartoononline" type="bool" label="WatchCartoonOnline" default="false" enable="false"/>
+	</category>
+	<category label="Cookies">
+		<setting label="Delete Cookie File" type="action" action="RunPlugin(plugin://plugin.video.cartooncrazy/?action=settings)"/>
+	</category>
+</settings>

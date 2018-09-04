@@ -1,0 +1,22 @@
+V2.1
+Release
+
+V2.2
+
+V2.3
+python update/remove music
+
+V2.4
+ATrain is a Moron
+
+V2.5
+update - ATrain is slightly less of a Moron today
+
+V2.6
+icon/fanart change - plugins updated, settings updated, default py updated
+
+V. 2.7
+imdb py update, resolveurl added
+
+V2.8
+fix
